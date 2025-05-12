@@ -1,0 +1,19 @@
+{
+  "name": "fedcm-idp",
+  "version": "1.0.0",
+  "description": "Identity Provider for FedCM",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  }
+}
